@@ -29,6 +29,7 @@ function UserForm() {
             setErrors(newUser)
         }else{
             setSuccess(newUser as UserSuccess)
+            setErrors({} as UserErrors)
         }
 
 
